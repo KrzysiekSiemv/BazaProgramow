@@ -1,4 +1,4 @@
-# BazaProgramow
+# Baza Programów
 
 ## O stronie/projekcie
 Po stworzeniu strony ze zbiorem systemów operacyjnych, postanowiłem stworzyć stronę, z której można pobierać programy na nowo zainstalowanym systemie lub na normalnym. 
