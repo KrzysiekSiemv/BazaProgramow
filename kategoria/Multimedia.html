@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Krzysztof 'KrzysiekSiemv' Smaga" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Skrypty -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
+        <!-- Takie fajne cosie -->
+        <title>Multimedia - Baza Programów</title>
+    </head>
+    <body class="bg-dark text-white">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand text-center" href="https://krzysieksiemv.github.io/BazaProgramow"><i class="navbar-brand fas fa-window-restore"></i></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaProgramow">
+                        STRONA GŁÓWNA
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        POBIERZ
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Bezpieczenstwo"><i class="fas fa-shield-alt"></i> Bezpieczeństwo</a>
+                        <a class="dropdown-item" href="Gry"><i class="fas fa-gamepad"></i> Biblioteki Gier</a>
+                        <a class="dropdown-item" href="Grafika"><i class="fas fa-palette"></i> Grafika</a>
+                        <a class="dropdown-item" href="Komunikacja"><i class="fas fa-comments"></i> Komunikacja</a>
+                        <a class="dropdown-item" href="Multimedia"><i class="far fa-play-circle"></i> Multimedia</a>
+                        <a class="dropdown-item" href="Narzedzia"><i class="fas fa-tools"></i> Narzędzia</a>
+                        <a class="dropdown-item" href="Office"><i class="fas fa-briefcase"></i> Pakiety biurowe</a>
+                        <a class="dropdown-item" href="Programowanie"><i class="fas fa-terminal"></i> Programowanie</a>
+                        <a class="dropdown-item" href="Przegladarki"><i class="fab fa-firefox-browser"></i> Przeglądarki</a>
+                        <a class="dropdown-item" href="https://krzysieksiemv.github.io/BazaProgramow/wszystkie-programy"><i class="fas fa-window-restore"></i> Wszystkie programy</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaOSow">
+                        BAZAOS'ÓW
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container">
+                <p class="display-3">Multimedia</p>
+                <i class="far fa-play-circle" style="font-size: 64px;"></i>
+            </div>
+        </div>
+        <div class="container">
+            <input class="form-control" id="myInput" type="text" placeholder="Szukaj...">
+            <br>
+            <div class="row text-center" id="programs">
+                <div class="col-sm-4"><!-- AIMP -->
+                    <img src="http://www.aimp.ru/v2/pages/download/icon-aimp.png" height="128px"/> 
+                    <h1>AIMP</h1> 
+                    <p>Odtwarzacz muzyki</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://aimp.su/storage/5865dfffa9000a0faed09abb818498c5/aimp_4.60.2167.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- AllPlayer -->
+                    <img src="https://www.allplayer.org/images/allplayer.png" height="128px"/> 
+                    <h1>AllPlayer</h1> 
+                    <p>Najsłynniejszy odtwarzacz wideo oraz audio</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://allplayer.org/Download/ALLPlayerPL.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- K-Lite Codec Pack - Standard -->
+                    <img src="https://codecguide.com/mpc_logo.png" height="128px"/> 
+                    <h1>K-Lite Codec Pack - Standard</h1> 
+                    <p>Kodeki umożliwiające odtworzenie wiele formatów wideo</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://files3.codecguide.com/K-Lite_Codec_Pack_1532_Standard.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://files2.codecguide.com/K-Lite_Codec_Pack_1385_Standard.exe"><i class="fab fa-windows"></i> Windows XP</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Spotify -->
+                    <img src="https://image.flaticon.com/icons/png/512/2111/2111624.png" height="128px"/> 
+                    <h1>Spotify</h1> 
+                    <p>Odtwarzacz muzyki lokalnej oraz sieciowej</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.scdn.co/SpotifySetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.scdn.co/SpotifyInstaller.zip"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Tidal -->
+                    <img src="https://offer.tidal.com/assets/favicons/favicon-196x196.png" height="128px"/> 
+                    <h1>Tidal</h1> 
+                    <p>Najlepsza dostępna jakość dźwięku online <span class="badge badge-secondary">Nowe</span></p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download.tidal.com/desktop/TIDALSetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download.tidal.com/desktop/TIDAL.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- VLC Media Player -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg" height="128px"/> 
+                    <h1>VLC Media Player</h1> 
+                    <p>Odtwarzacz wideo obsługujący wiele formatów</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://ftp.icm.edu.pl/pub/video/vlc/vlc/3.0.8/win64/vlc-3.0.8-win64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://ftp.icm.edu.pl/pub/video/vlc/vlc/3.0.8/win32/vlc-3.0.8-win32.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://ftp.icm.edu.pl/pub/video/vlc/vlc/3.0.8/macosx/vlc-3.0.8.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://ftp.icm.edu.pl/pub/video/vlc/vlc/3.0.8/vlc-3.0.8.tar.xz"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Winamp -->
+                    <img src="http://icons.iconarchive.com/icons/ncrow/mega-pack-2/256/Winamp-icon.png" height="128px"/> 
+                    <h1>Winamp</h1> 
+                    <p>Słynny odtwarzacz muzyki, który kiedyś znajdował się na każdym komputerze</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.nullsoft.com/winamp/client/winamp58_3660_beta_full_en-us.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+              $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#programs div").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+              });
+            });
+            </script> 
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container"> 
+                <a style="text-decoration:none; color:white" href="https://github.com/KrzysiekSiemv"><i class="fab fa-github"></i> Krzysztof 'KrzysiekSiemv' Smaga 2020</a>
+            </div>
+        </div>
+    </body>
+</html>

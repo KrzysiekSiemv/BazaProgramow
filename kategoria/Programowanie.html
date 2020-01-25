@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Krzysztof 'KrzysiekSiemv' Smaga" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Skrypty -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
+        <!-- Takie fajne cosie -->
+        <title>Programowanie - Baza Programów</title>
+    </head>
+    <body class="bg-dark text-white">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand text-center" href="https://krzysieksiemv.github.io/BazaProgramow"><i class="navbar-brand fas fa-window-restore"></i></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaProgramow">
+                        STRONA GŁÓWNA
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        POBIERZ
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Bezpieczenstwo"><i class="fas fa-shield-alt"></i> Bezpieczeństwo</a>
+                        <a class="dropdown-item" href="Gry"><i class="fas fa-gamepad"></i> Biblioteki Gier</a>
+                        <a class="dropdown-item" href="Grafika"><i class="fas fa-palette"></i> Grafika</a>
+                        <a class="dropdown-item" href="Komunikacja"><i class="fas fa-comments"></i> Komunikacja</a>
+                        <a class="dropdown-item" href="Multimedia"><i class="far fa-play-circle"></i> Multimedia</a>
+                        <a class="dropdown-item" href="Narzedzia"><i class="fas fa-tools"></i> Narzędzia</a>
+                        <a class="dropdown-item" href="Office"><i class="fas fa-briefcase"></i> Pakiety biurowe</a>
+                        <a class="dropdown-item" href="Programowanie"><i class="fas fa-terminal"></i> Programowanie</a>
+                        <a class="dropdown-item" href="Przegladarki"><i class="fab fa-firefox-browser"></i> Przeglądarki</a>
+                        <a class="dropdown-item" href="https://krzysieksiemv.github.io/BazaProgramow/wszystkie-programy"><i class="fas fa-window-restore"></i> Wszystkie programy</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaOSow">
+                        BAZAOS'ÓW
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container">
+                <p class="display-3">Programowanie</p>
+                <i class="fas fa-terminal" style="font-size: 64px;"></i>
+            </div>
+        </div>
+        <div class="container">
+            <input class="form-control" id="myInput" type="text" placeholder="Szukaj...">
+            <br>
+            <div class="row text-center" id="programs">
+                <div class="col-sm-4"><!-- Atom -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Icon_Atom.svg" height="128px"/> 
+                    <h1>Atom</h1> 
+                    <p>Edytowalny edytor tekstu XXI wieku</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/atom/atom/releases/download/v1.42.0/AtomSetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/atom/atom/releases/download/v1.42.0/atom-mac.zip"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/atom/atom/releases/download/v1.42.0/atom-amd64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/atom/atom/releases/download/v1.42.0/atom.x86_64.rpm"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Node.js -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" height="128px"/> 
+                    <h1>Node.js</h1> 
+                    <p>Środowisko uruchomieniowe do tworzenia aplikacji typu Server-Side napisane w języku JavaScript</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://nodejs.org/dist/v12.14.0/node-v12.14.0-x86.msi"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://nodejs.org/dist/v12.14.0/node-v12.14.0.pkg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://nodejs.org/dist/v12.14.0/node-v12.14.0-linux-x64.tar.xz"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Notepad++ -->
+                    <img src="https://notepad-plus-plus.org/images/logo.svg" height="128px"/> 
+                    <h1>Notepad++</h1> 
+                    <p>Rozbudowany notatnik wspierający wiele języków</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.2/npp.7.8.2.Installer.x64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.2/npp.7.8.2.Installer.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Sublime Text -->
+                    <img src="https://avatars0.githubusercontent.com/u/684879?s=280&v=4" height="128px"/> 
+                    <h1>Sublime Text</h1> 
+                    <p>Zaawansowany edytor tekstu specjalny dla kodu</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.sublimetext.com/Sublime Text Build 3211 x64 Setup.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.sublimetext.com/Sublime Text Build 3211 Setup.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.sublimetext.com/Sublime Text Build 3211.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2"><i class="fab fa-linux"></i> Linux (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.sublimetext.com/sublime_text_3_build_3211_x32.tar.bz2"><i class="fab fa-linux"></i> Linux (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Visual Studio 2019 -->
+                    <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/02/VSWinIcon_100x.png" height="128px"/> 
+                    <h1>Visual Studio 2019</h1> 
+                    <p>W pełni funkcjonalne, rozszerzalne i bezpłatne środowisko IDE przeznaczone do tworzenia nowoczesnych aplikacji dla systemów Android, iOS i Windows, jak również aplikacji internetowych i usług w chmurze.</p>
+                    <a class=" btn btn-primary disabled" href="#">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.visualstudio.microsoft.com/download/pr/f6473c9f-a5f6-4249-af28-c2fd14b6a0fb/5082309bc336fec6ee9ff09cd0bf9d755b85c49732cf5673c35e7778dc0e221a/vs_Community.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.visualstudio.microsoft.com/download/pr/86688925-4e75-4a31-aaf9-168f83368800/aec6e4319bb72efc89087ec0313b7c06/visualstudioformacinstaller.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Visual Studio Code -->
+                    <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/02/VSWinIcon_100x.png" height="128px"/> 
+                    <h1>Visual Studio Code</h1> 
+                    <p>Darmowe środowisko IDE zbudowane na Open Source, który działa wszędzie</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://aka.ms/win32-user-stable"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.microsoft.com/fwlink/?LinkID=620882"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.microsoft.com/fwlink/?LinkID=760868"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.microsoft.com/fwlink/?LinkID=760867"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+              $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#programs div").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+              });
+            });
+            </script> 
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container"> 
+                <a style="text-decoration:none; color:white" href="https://github.com/KrzysiekSiemv"><i class="fab fa-github"></i> Krzysztof 'KrzysiekSiemv' Smaga 2020</a>
+            </div>
+        </div>
+    </body>
+</html>

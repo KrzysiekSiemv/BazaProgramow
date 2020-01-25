@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Krzysztof 'KrzysiekSiemv' Smaga" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Skrypty -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
+        <!-- Takie fajne cosie -->
+        <title>Przeglądarki - Baza Programów</title>
+    </head>
+    <body class="bg-dark text-white">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand text-center" href="https://krzysieksiemv.github.io/BazaProgramow"><i class="navbar-brand fas fa-window-restore"></i></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaProgramow">
+                        STRONA GŁÓWNA
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        POBIERZ
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Bezpieczenstwo"><i class="fas fa-shield-alt"></i> Bezpieczeństwo</a>
+                        <a class="dropdown-item" href="Gry"><i class="fas fa-gamepad"></i> Biblioteki Gier</a>
+                        <a class="dropdown-item" href="Grafika"><i class="fas fa-palette"></i> Grafika</a>
+                        <a class="dropdown-item" href="Komunikacja"><i class="fas fa-comments"></i> Komunikacja</a>
+                        <a class="dropdown-item" href="Multimedia"><i class="far fa-play-circle"></i> Multimedia</a>
+                        <a class="dropdown-item" href="Narzedzia"><i class="fas fa-tools"></i> Narzędzia</a>
+                        <a class="dropdown-item" href="Office"><i class="fas fa-briefcase"></i> Pakiety biurowe</a>
+                        <a class="dropdown-item" href="Programowanie"><i class="fas fa-terminal"></i> Programowanie</a>
+                        <a class="dropdown-item" href="Przegladarki"><i class="fab fa-firefox-browser"></i> Przeglądarki</a>
+                        <a class="dropdown-item" href="https://krzysieksiemv.github.io/BazaProgramow/wszystkie-programy"><i class="fas fa-window-restore"></i> Wszystkie programy</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaOSow">
+                        BAZAOS'ÓW
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container">
+                <p class="display-3">Przeglądarki</p>
+                <i class="fab fa-firefox-browser" style="font-size: 64px;"></i>
+            </div>
+        </div>
+        <div class="container">
+            <input class="form-control" id="myInput" type="text" placeholder="Szukaj...">
+            <br>
+            <div class="row text-center" id="programs">
+                <div class="col-sm-4"><!-- Brave -->
+                    <img src="https://brave.com/wp-content/uploads/2018/02/cropped-brave_appicon_release-192x192.png" height="128px"/> 
+                    <h1>Brave</h1> 
+                    <p>Najszybsza ze wszystkich oraz najbezpieczniejsza przeglądarka</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://laptop-updates.brave.com/latest/winx64"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://laptop-updates.brave.com/latest/winia32"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://laptop-updates.brave.com/latest/osx"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Google Chrome -->
+                    <img src="https://www.google.com/chrome/static/images/chrome-logo.svg" height="128px"/> 
+                    <h1>Google Chrome</h1> 
+                    <p>Prostota obsługi, lepsze zabezpieczenia i większa szybkość. Wbudowane inteligentne rozwiązania Google</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://dl.google.com/tag/s/appguid={8A69D345-D564-463C-AFF1-A69D9E530F96}&iid={8E7B7E99-7D24-70C2-A5F4-4A58AE7BE3BF}&lang=pl&browser=3&usagestats=0&appname=Google%20Chrome&needsadmin=prefers&ap=stable-arch_x86-statsdef_1&installdataindex=empty/update2/installers/ChromeSetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm"><i class="fab fa-linux"></i> Linux (tar.gz)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Mozilla Firefox -->
+                    <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-lg.3d9087ac44e8.png" height="128px"/> 
+                    <h1>Mozilla Firefox</h1> 
+                    <p>Zadba o Twoją prywatność w sieci</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win&lang=pl"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=pl"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.mozilla.org/?product=firefox-latest-ssl&os=linux&lang=pl"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Opera -->
+                    <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/favicon-32x32.d80e4bdc6a9f.png" height="128px"/> 
+                    <h1>Opera</h1> 
+                    <p>Zawiera wbudowany AdBlock oraz darmowy VPN</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download1.operacdn.com/pub/opera/desktop/65.0.3467.78/win/Opera_65.0.3467.78_Setup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download3.operacdn.com/pub/opera/desktop/65.0.3467.78/mac/Opera_65.0.3467.78_Setup.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download3.operacdn.com/pub/opera/desktop/65.0.3467.69/linux/opera-stable_65.0.3467.69_amd64.deb"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Opera GX -->
+                    <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/client/welcomeGx/favicon/favicon-32x32.0bf944c0898d.png" height="128px"/> 
+                    <h1>Opera GX</h1> 
+                    <p>Gamingowa przeglądarka</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download3.operacdn.com/pub/opera_gx/64.0.3417.150/win/Opera_GX_64.0.3417.150_Setup_x64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download1.operacdn.com/pub/opera_gx/64.0.3417.150/win/Opera_GX_64.0.3417.150_Setup.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+              $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#programs div").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+              });
+            });
+            </script> 
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container"> 
+                <a style="text-decoration:none; color:white" href="https://github.com/KrzysiekSiemv"><i class="fab fa-github"></i> Krzysztof 'KrzysiekSiemv' Smaga 2020</a>
+            </div>
+        </div>
+    </body>
+</html>

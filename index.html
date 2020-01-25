@@ -1,69 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Baza Programów</title>
-        <!--Meta-->
+        <!-- Meta Tags -->
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="author" content="Krzysztof 'KrzysiekSiemv' Smaga" />
-        <meta name="description" content="Strona ze zbiorem programów najnowszych wersji, umożliwiająca pobieranie ich z oficjalnych źródeł" />
-        <!--Stylesheets-->
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
-        <link rel="stylesheet" media="screen" href="stylesheet.css" />
-        <!--Skrypty-->
+        <meta name="description" content="Strona zawierająca gamę programów, które można pobrać z serwerów programistów" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Skrypty -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
+        <!-- Takie fajne cosie -->
+        <title>Baza Programów - Nowa wersja</title>
     </head>
-
-    <body>
-        <div class="navbar">
-            <i class="far fa-window-restore"></i>
-            <h1>Baza Programów</h1>
-            <h3>Programy w jednym miejscu</h3>
-        </div>
-        <div class="menu">
-            <a style="text-decoration: overline;"> STRONA GLOWNA </a>
-                <a href="o-stronie"> O STRONIE </a>
-                <a href="dodaj-program"> DODAJ PROGRAM </a>
-                <div class="dropdown">
-                    <a href="pobierz">POBIERZ</a>
-                    <div class="dropdown-content">
-                        <a href="https://krzysieksiemv.github.io/BazaOSow">Systemy operacyjne</a>
-                        <a href="pobierz/Bezpieczenstwo">Bezpieczeństwo</a>
-                        <a href="pobierz/Pakiety_biurowe">Pakiety biurowe</a>
-                        <a href="pobierz/Grafika">Grafika</a>
-                        <a href="pobierz/Programowanie">Programowanie</a>
-                        <a href="pobierz">Więcej kategorii</a>
+    <body class="bg-dark text-white">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand text-center" href="https://krzysieksiemv.github.io/BazaProgramow"><i class="navbar-brand fas fa-window-restore"></i></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaProgramow">
+                        STRONA GŁÓWNA
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        POBIERZ
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="kategoria/Bezpieczenstwo"><i class="fas fa-shield-alt"></i> Bezpieczeństwo</a>
+                        <a class="dropdown-item" href="kategoria/Gry"><i class="fas fa-gamepad"></i> Biblioteki Gier</a>
+                        <a class="dropdown-item" href="kategoria/Grafika"><i class="fas fa-palette"></i> Grafika</a>
+                        <a class="dropdown-item" href="kategoria/Komunikacja"><i class="fas fa-comments"></i> Komunikacja</a>
+                        <a class="dropdown-item" href="kategoria/Multimedia"><i class="far fa-play-circle"></i> Multimedia</a>
+                        <a class="dropdown-item" href="kategoria/Narzedzia"><i class="fas fa-tools"></i> Narzędzia</a>
+                        <a class="dropdown-item" href="kategoria/Office"><i class="fas fa-briefcase"></i> Pakiety biurowe</a>
+                        <a class="dropdown-item" href="kategoria/Programowanie"><i class="fas fa-terminal"></i> Programowanie</a>
+                        <a class="dropdown-item" href="kategoria/Przegladarki"><i class="fab fa-firefox-browser"></i> Przeglądarki</a>
+                        <a class="dropdown-item" href="wszystkie-programy"><i class="fas fa-window-restore"></i> Wszystkie programy</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaOSow">
+                        BAZAOS'ÓW
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container">
+                <p class="display-1">Baza Programów</p>
+                <i class="fas fa-window-restore" style="font-size: 128px;"></i>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3>Dlaczego powstała ta strona?</h3>
+                    <i style="font-size: 64px;" class="fas fa-question"></i>
+                    <p>Strona powstała dla osób, które nie pobierają programów z głównego źródła, jakimi są serwery programistów, pobierając przy tym nie potrzebne dla nich rzeczy.</p>
                 </div>
-        </div>
-        <div class="header">
-            <h1>Programy, które potrzebujesz w jednym miejscu.</h1>
-            <i class="far fa-window-restore"></i>
-            <p>Nie musisz już poszukiwać programów po całym internecie, narażając się na dodatkowe, niechciane oprogramowania lub wirusy wpychane przez serwisy tego typu. Od teraz możesz mieć wszystkie programy w jednym miejscu, a serwerami pobierania są oficjalne serwery deweloperów.
-                <br>
-                <br>
-                Aby zobaczyć kategorie, jakie znajdują się na stronie przejdź do zakładki POBIERZ. 
-            </p>
-        </div>
-        <div class="footer">
-            <p>Stworzone przez Krzysztof 'KrzysiekSiemv' Smaga</p>
-            <div style="text-align:center">
-                    <a class="fab fa-github" href="https://github.com/KrzysiekSiemv"></a>
+                <div class="col">
+                    <h3>Czy tutaj można pobierać za darmo?</h3>
+                    <i style="font-size: 64px;" class="fas fa-wallet"></i>
+                    <p>Ta strona jest w 100% bezpłatna oraz zawiera programy, które są na licencjach Freeware, czyli darmowych. Można także znaleźć alternatywy dla płatnych programów.</p>
+                </div>
+                <div class="col">
+                    <h3>Skąd pewność, że nie ma tu wirusów?</h3>
+                    <i style="font-size: 64px;" class="fas fa-biohazard"></i>
+                    <p>Źródłami tych programów są serwery twórców programu, więc jest 100% pewność, że pobieramy oprogramowanie jakie chcemy, bez żadnych niechcianych dodatków na komputer</p>
+                </div>
             </div>
-            <div style="text-align:center">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="R6P8L2AMZ868W" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                <img alt="" border="0" src="https://www.paypal.com/en_PL/i/scr/pixel.gif" width="1" height="1" />
-              </form>
+        </div>
+        <br>
+        <div class="container text-center">
+            <div class="progress" style="height: 5px;">
+                <div class="progress-bar bg-white" style="width: 100%;"></div>
             </div>
-            <p style="color:rgb(48, 99, 42);">Jest easter-egg w kodzie na dole!</p>
+            <br>
+            <h2>Pobierz programy już teraz</h2>
+            <p>Znajdź program jaki potrzebujesz i pobierz to w łatwy sposób.</p>
+            <i style="font-size: 96px;" class="fas fa-download"></i>
+            <br>
+            <br>
+            <button type="button" class="btn btn-light btn-lg" onclick="location.href='https://krzysieksiemv.github.io/BazaProgramow/wszystkie-programy';">Pokaż wszystkie programy</button>
+        </div>
+        <br>
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container">
+                <a style="text-decoration:none; color:white" href="https://github.com/KrzysiekSiemv"><i class="fab fa-github"></i> Krzysztof 'KrzysiekSiemv' Smaga 2020</a>
+            </div>
         </div>
     </body>
-        <!-------∧_∧-->
-        <!-----(　･ω･)-->
-        <!----＿|　⊃／(＿＿_-->
-        <!--／　└-(＿＿＿_／-->
-        <!--￣￣￣￣￣￣￣-->
-        <!--Kiteł śpioch obserwuje, czy nie patrzysz w kod!-->
 </html>

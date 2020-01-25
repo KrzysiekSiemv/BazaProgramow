@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Krzysztof 'KrzysiekSiemv' Smaga" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Skrypty -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
+        <!-- Takie fajne cosie -->
+        <title>Wszystkie programy - Baza Programów</title>
+    </head>
+    <body class="bg-dark text-white">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand text-center" href="https://krzysieksiemv.github.io/BazaProgramow"><i class="navbar-brand fas fa-window-restore"></i></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaProgramow">
+                        STRONA GŁÓWNA
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        POBIERZ
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="kategoria/Bezpieczenstwo"><i class="fas fa-shield-alt"></i> Bezpieczeństwo</a>
+                        <a class="dropdown-item" href="kategoria/Gry"><i class="fas fa-gamepad"></i> Biblioteki Gier</a>
+                        <a class="dropdown-item" href="kategoria/Grafika"><i class="fas fa-palette"></i> Grafika</a>
+                        <a class="dropdown-item" href="kategoria/Komunikacja"><i class="fas fa-comments"></i> Komunikacja</a>
+                        <a class="dropdown-item" href="kategoria/Multimedia"><i class="far fa-play-circle"></i> Multimedia</a>
+                        <a class="dropdown-item" href="kategoria/Narzedzia"><i class="fas fa-tools"></i> Narzędzia</a>
+                        <a class="dropdown-item" href="kategoria/Office"><i class="fas fa-briefcase"></i> Pakiety biurowe</a>
+                        <a class="dropdown-item" href="kategoria/Programowanie"><i class="fas fa-terminal"></i> Programowanie</a>
+                        <a class="dropdown-item" href="kategoria/Przegladarki"><i class="fab fa-firefox-browser"></i> Przeglądarki</a>
+                        <a class="dropdown-item" href="wszystkie-programy"><i class="fas fa-window-restore"></i> Wszystkie programy</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaOSow">
+                        BAZAOS'ÓW
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container">
+                <p class="display-3">Wszystkie programy</p>
+                <i class="fas fa-window-restore" style="font-size: 64px;"></i>
+                <br>
+                <br>
+                <p>Ponad 50 programów na stronie</p>
+            </div>
+        </div>
+        <div class="container">
+            <input class="form-control" id="myInput" type="text" placeholder="Szukaj...">
+            <br>
+            <div class="row text-center" id="programs">
+                <div class="col-sm-4"><!-- μTorrent -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/ΜTorrent_2.2_icon.svg/1024px-ΜTorrent_2.2_icon.svg.png" height="128px"/> 
+                    <h1>μTorrent</h1> 
+                    <p>Oprogramowanie do pobierania plików torrent</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download-hr.utorrent.com/track/stable/endpoint/utorrent/os/windows"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download-hr.utorrent.com/track/stable/endpoint/utmac/os/osx"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- 7-zip -->
+                    <img src="https://www.7-zip.org/7ziplogo.png" height="128px"/> 
+                    <h1>7-zip</h1> 
+                    <p>Darmowe oprogramowanie open-source archiwizujące pliki</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.7-zip.org/a/7z1900-x64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.7-zip.org/a/7z1900.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- AIMP -->
+                    <img src="http://www.aimp.ru/v2/pages/download/icon-aimp.png" height="128px"/> 
+                    <h1>AIMP</h1> 
+                    <p>Odtwarzacz muzyki</p>
+                    <a class=" btn btn-primary" href="kategoria/Multimedia">Multimedia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://aimp.su/storage/5865dfffa9000a0faed09abb818498c5/aimp_4.60.2167.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- AllPlayer -->
+                    <img src="https://www.allplayer.org/images/allplayer.png" height="128px"/> 
+                    <h1>AllPlayer</h1> 
+                    <p>Najsłynniejszy odtwarzacz wideo oraz audio</p>
+                    <a class=" btn btn-primary" href="kategoria/Multimedia">Multimedia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://allplayer.org/Download/ALLPlayerPL.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Atom -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Icon_Atom.svg" height="128px"/> 
+                    <h1>Atom</h1> 
+                    <p>Edytowalny edytor tekstu XXI wieku</p>
+                    <a class=" btn btn-primary" href="kategoria/Programowanie">Programowanie</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/atom/atom/releases/download/v1.42.0/AtomSetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/atom/atom/releases/download/v1.42.0/atom-mac.zip"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/atom/atom/releases/download/v1.42.0/atom-amd64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/atom/atom/releases/download/v1.42.0/atom.x86_64.rpm"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Avast! Free Antivirus -->
+                    <img src="https://static3.avast.com/2000651/web/i/favicon-32x32.png" height="128px"/> 
+                    <h1>Avast! Free Antivirus</h1> 
+                    <p>Darmowe oprogramowanie antywirusowe</p>
+                    <a class=" btn btn-primary" href="kategoria/Bezpieczenstwo">Bezpieczeństwo</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://dpcdn-avast.pl/specjalne/avast_forwarded/avast_free_antivirus_setup_online.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Battle.net -->
+                    <img src="https://external-preview.redd.it/wFOBEiVQtek76NU2o8drpwweHr5H9cS8Osch9vC-yF8.png?auto=webp&s=eb0d28c5dce94d7ec322fa2a5cc34726423fe4dd" height="128px"/> 
+                    <h1>Battle.net</h1> 
+                    <p>Biblioteka gier Blizzard oraz Activision</p>
+                    <a class=" btn btn-primary" href="kategoria/Gry">Biblioteki Gier</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.battle.net/download/getInstallerForGame?os=win&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"> <!-- Blender -->
+                    <img src="http://icons.iconarchive.com/icons/ncrow/mega-pack-1/256/Blender-icon.png" height="128px"/> 
+                    <h1>Blender</h1> 
+                    <p>Oprogramowanie do modelowania 3D</p>
+                    <a class=" btn btn-primary" href="kategoria/Grafika">Grafika</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.blender.org/download/Blender2.81/blender-2.81a-windows64.msi/"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.blender.org/download/Blender2.81/blender-2.81a-macOS.dmg/"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.blender.org/download/Blender2.81/blender-2.81a-linux-glibc217-x86_64.tar.bz2/"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- BlueScreenView -->
+                    <img src="http://cdn.warer.com/media/BlueScreenView-logo.jpg" height="128px"/> 
+                    <h1>BlueScreenView</h1> 
+                    <p>Narzędzie do sprawdzania BSOD'ów</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.nirsoft.net/utils/bluescreenview-x64.zip"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.nirsoft.net/utils/bluescreenview.zip"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Brave -->
+                    <img src="https://brave.com/wp-content/uploads/2018/02/cropped-brave_appicon_release-192x192.png" height="128px"/> 
+                    <h1>Brave</h1> 
+                    <p>Najszybsza ze wszystkich oraz najbezpieczniejsza przeglądarka</p>
+                    <a class=" btn btn-primary" href="kategoria/Przegladarki">Przeglądarki</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://laptop-updates.brave.com/latest/winx64"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://laptop-updates.brave.com/latest/winia32"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://laptop-updates.brave.com/latest/osx"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Cinebench r20 -->
+                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/cd/e2/c7/cde2c7be-1dea-545b-7980-780f28c00169/c4dapp.png/1200x630bb.png" height="128px"/> 
+                    <h1>Cinebench r20</h1> 
+                    <p>Narzędzie do robienia benchmarków procesora</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://http.maxon.net/pub/cinebench/CinebenchR20.zip"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://http.maxon.net/pub/cinebench/CinebenchR20.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- CPU-Z -->
+                    <img src="https://www.cpuid.com/medias/images/softwares/cpu-z.svg" height="128px"/> 
+                    <h1>CPU-Z</h1> 
+                    <p>Narzędzie pokazujące informacje na temat Twojego komputera</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download.cpuid.com/cpu-z/cpu-z_1.91-en.zip"><i class="fab fa-windows"></i> Windows (zip)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="http://download.cpuid.com/cpu-z/cpu-z_1.91-en.exe"><i class="fab fa-windows"></i> Windows (exe)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Discord -->
+                    <img src="https://discordapp.com/assets/2c21aeda16de354ba5334551a883b481.png" height="128px"/> 
+                    <h1>Discord</h1> 
+                    <p>Oprogramowanie do komunikacji głosowej między graczami</p>
+                    <a class=" btn btn-primary" href="kategoria/Komunikacja">Komunikacja</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://discordapp.com/api/download?platform=win"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://discordapp.com/api/download?platform=osx"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://discordapp.com/api/download?platform=linux&format=deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://discordapp.com/api/download?platform=linux&format=tar.gz"><i class="fab fa-linux"></i> Linux (tar.gz)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Epic Games Launcher -->
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB0CAMAAABE6mf9AAAB7FBMVEVMaXH////////n5+dwcHD///////////97e3v////////////////8/Pz+/v7///////+xsbH////////+/v7+/v7+/v729vbS0tLOzs7e3t6wsLD///8YGBjPz8/9/f3////7+/v////////8/Pzf39/4+Phubm7+/v7///85OTmSkpLLy8v////+/v7////Z2dn////6+vr39/fU1NT+/v6enp6lpaX9/f3////+/v719fX39/f8/Pz////////AwMD9/f3////9/f38/Pzb29v4+Pj39/f///////+3t7f8/Pze3t77+/uTk5P8/Pz4+Pjx8fH+/v7c3Nz5+fni4uL6+vr////5+fn///+qqqr09PT9/f3+/v7e3t7////8/Pz6+vr9/f3////7+/vn5+f6+vr+/v65ubn29vbMzMyhoaHb29vr6+vExMS2trb8/Pz7+/v7+/u2tra7u7vm5ub+/v6enp77+/v////////5+fn7+/v5+fmpqana2trZ2dnOzs76+vrLy8vl5eXW1tbJycnS0tL5+fn7+/vn5+f19fW9vb3Hx8f5+fn4+PjNzc3+/v7AwMDZ2dm1tbX5+fm2trb29vbe3t7p6em9vb3y8vLKysrT09Pc3Nz09PTh4eHIyMjm5ub///+stlOlAAAAo3RSTlMA9vsEAf3l/gL5UvDtEgnz7wP0wqWEijAcGiUJgAQUJNzOq+jrKOQIG64JUlTsmuKN3+AZDdkGFpbV4ToQIVC7Cg3SY3AgHgfEsh4VZcgOlAondSO7LCqo17YwNY6gj2hLRX/N0i/mWpnvElQ6Qj4+VnzpaBJP5UTCgcqqvIs6Fh5krSyESEZZ3dp3tzR68qOAh1CHS4VBS0pacG8hhHZdoqdl1QdEjAAACP1JREFUeF7tmvtf08gaxpNJ0iEkJb0BKEhDs0B7zmlrLRQoLZS0tmAFaFlABeQu53CABQQFkEXA+3W97eqq657tP3pmUjSUSitCPZ+zy/NTMszkyzvvO88kAwRBRUfqZTKRG5Gyo8lNEZT/lawjYY4gkNQ1FJoJd6ETJHIp4HQQIzJI5FYMRzh0iZyLaGC/AYSF3wCSSPyJIMeQYwjg+N0SALY49Z4jmR3jY5WOH50VsrxmRzwJs0CAq75sl1a2JIY0FqkNnW2ypKxeVu7E9wOtpILwNo9O5iuaLLO5WJgRwrbPbmhVuc/LQDfQozZEw8VDyzr0DNJSjO97OjnEEJbPx7RdBYq6tP5JIwkzQpYvnSJUBe6OA13hCZpQpffdXkMUg+lkHkHklRTpEPD7pak8tQfta2plDwch6MCdh+RuCLhwfiq1h2/SBQ8HIei6X6vgLohhDV2m6NT2FpkdQgd8ak6SEEprtVp9egKp+uUyq0LgwvtFZR61frPZH6Xw8HNlfHZI4Hb8U3UlIXnuuMXWF6/04MdtrxlUCLi/2UGgy3PzY6I4VmhFzfRUUMoOKX9x3/5xnSQh+kqTjiTFeS1+XrdD2AWp+EcpDu/6BYDGVywF8M3P3i+AnP7uY+Y+QSxomrnOm/jRZz8D+dvfq/A6u3++BiflxzOHgNRng9T+f0OOIccQ8UEM2c/Z594cQqCwasNaNmSHTL0fd2qwOHAwSAKyJBYLs0M8PcP5SE1zazw8GERVdqunChSdeL+QK4iqxZ+u7IYwmtENOpeQ7k5ZHKufLVWsfjA3EIJy+81+t4dWdosb5BFA9FNuK1bP6Z2cpKgD7/GHh9RsPrUhWWwXyEQahJp4KiT2g0DwxSVc/uIKqQjAvRC6tHdAYvaFsLVtFnUxHnDFE3QEvx76ot2vTYixHwTaf5/4eluhaxqb0ItuaOCiKMDE/pDvLpcfwiC7HSKyGYnDr7k5g+DFqOp/ATmGHENO5xRy/R4awoi/TX0pZOq3dlGRl4RZIRc2A/i5l546eV7T1k8pm8EXQPTlfjNW7JdWNhsEVv20iL2tejtYthLq76Kxi3/QZIOo0k80Z4UkhKdnaaVzi1bbQtHKV9cAd8QQtv11hEiRZ3YcHDEE8o4YlcKoXNdl3BmNjwIFqrr6EaSoG19N2FIhfT1dqPUknhdGM1Dsw/OERVPaiXUnkwkCGkL5uxWSgWAJKletbOpvM4RbgzYDHmVvjjeaw1akcGxmvllCjAwQyEqa3ZJYyAhKk0TClI5kslVgksPsLvmiDemi7LKzMGfnXQxLIrHMX+Tk7hhyDAEkJ5BM4isEgbJUskOANNZW72hr4MHHBrsoegWorPMrorjA4ivBi6/AEzEp3IOBrHMVL3qJhFkg7FioNxx1h/sL5WRfKM0Xx2a2BMWk7/b0bFYgurA2E+v59d6T/0ybk4rdthkMy3/EkH1NBG9wMCMEjOVr9QGftosKPxCVWMgbsx5i8fE9gA9nf6jOK3klQTC+2UFX//vCv/5ZR+gjBUg1j0x8+9KUR+v2RXyv29lMEMYV3NBvLMVH5/zFJk6Zomuhcn2eZ3tNSEIIz/SWIK2jz+AkJK9uJGnYxiuXT3i2Xw3GG2NBZ8ZIuPpuz8aDCokXTTaJ2QkkUNKRt/i4iklC6I6r4w/vlBI7kOrr3zuThoyOBms+yJwk21bZjFbvHQ4EltpJVnLWik4OT5c0v/Hu7fVqz+xDUoHoKc+7t1frPKV0CkTiQO0fNZ7tolWnnWMzJh60PzpVfnkB1MbxecRTO4NaXtZtLr/10XWPr0AMqZuoK92o67j0Y2nKdAVNAjfYS1HR2HChUQLZPkxLfn8CKu5stBSceLEAE9Krczfrrw1eOoVDwZB3oat1eVTPrasdSQjtUQ6qY4U8o3H0RwuoiHZi1MVkjORSMpL5JrNnER16oEA6egblh9ercSgY0u1ACdmYb8eQ1EgSDLdalN8bjXhOrusy5eTMbHUyJ/LQ1BSC2F+dywtYzeEATVTfWeYwZNC1Xvm8vQpBUnPCQFan451jRcWR6jtnYIbq4kdL9Ep1NSgQMP6yOqJMRylNl6xfUyA6ebReOpMCwRSSrCgaFHlu/MHUqUfjIAMEyMMt1EZjaDT/pr78xQI/cK5jOrRStjL/QylRentZgQisZAcIkrZObp0MD5cNDsxEAsPeTJEkBMuIlqLwim/pX+PuP+9wdzp5nnd2Tmupm+tbP2NIAkIGQ1JX/Jr3VqymQOuOBmqmTYaMtgK51qEJt1br7h1q5oWt2xNv2nHkDDce6q0833m3Z8ZC4vuqx5XdV1O9i3NuvcEnkOZ8G5/Zu/Cr16qjcMXRqmEhw3nFa9gmkwcathuiV/RySnkaKmy2dm6PC5PXxmyWNqMzmwtjAUHHCwCmbxUkSLllYfpQ3Ake7/FJHUOYbwHhwTeAGA3fABJ3whwjIEvE+qTcpoXhjQRVPCAacoeBpMvRSBCUNd8kcgDmJApOtAX9yh+du8IjA6sSC488F3a5s8nfoicU0ZFoceiiSwDpPRmDpMkm6bMDBVdzHL290IQqqsU855DtabNGrhaFgnP5+2syGCoycmn7gr1hcM7so4g9ogvcjaNGp4HZE4nz4vxMzF1T8Bl1+ay9Tc+anXsiQZuXcbTRqpxKpYvSxj6YanV7h0i1tvi0Fc1tiuiI1j9S1izu/UcVoEPJ7tVSxL7CRfBsVSJhGqcvOKFwVMLwSrOLZ9N6rj4bwcnOJDy8d6hN5EBi72jZFCy2tlA7hMJ0QgJwYluoPxqhiezSt/h/qZfVmlYLTe5DrzJRMyboWJhesY43fjXZ2UQH3P3xZmfa1ymD4hnsTCfgnzhRst2oYg8ivS8211fLg/SFw6kENdm1FpxsBXEwTFd4ZrRVk+ljW032TBgl+6tEU9riIUstBzIggCC2DRVHDx5EihOElzrH9jM2yEqyYymMSu4QUotAdYIUNzDG+90BmjgKUT7znKlhj7EBvtY0ie3pyER3uRtxEcBPydasrs9gezpK4SLoDVqSTgA4V9tQ7yGSndkJ5vrsTIKx9835D1Kx/wXK3/3Drl/jTAAAAABJRU5ErkJggg==" height="128px"/> 
+                    <h1>Epic Games Launcher</h1> 
+                    <p>Biblioteka gier od Epic Games</p>
+                    <a class=" btn btn-primary" href="kategoria/Gry">Biblioteki Gier</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- FileZilla FTP Client -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/FileZilla_logo.svg" height="128px"/> 
+                    <h1>FileZilla FTP Client</h1> 
+                    <p>Narzędzie służące do łączenia się z serwerem FTP</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://dl1.cdn.filezilla-project.org/client/FileZilla_3.46.3_win64-setup.exe?h=resSNbtrsxipVYd0EdLpjg&x=1577880962"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl1.cdn.filezilla-project.org/client/FileZilla_3.46.3_win32-setup.exe?h=bNinoJrBB6d3bQFhfEzfdg&x=1577880962"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl1.cdn.filezilla-project.org/client/FileZilla_3.46.3_macosx-x86.app.tar.bz2?h=PfOrFvn2YAKbKV_h2IxodA&x=1577880962"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Geforce Experience -->
+                    <img src="https://vulndetect.org/assets/uploads/files/1529528057938-geforce_experience_icon_256x256.ico" height="128px"/> 
+                    <h1>Geforce Experience</h1> 
+                    <p>Narzędzie do kart graficznych Nvidia optymalizująca działanie karty w grach</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://pl.download.nvidia.com/GFE/GFEClient/3.20.2.34/GeForce_Experience_v3.20.2.34.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- GIMP 2 -->
+                    <img src="https://www.gimp.org/images/frontpage/wilber-big.png" height="128px"/> 
+                    <h1>GIMP 2</h1> 
+                    <p>Oprogramowanie do tworzenia lub edycji grafiki</p>
+                    <a class=" btn btn-primary" href="kategoria/Grafika">Grafika</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.14-setup-2.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.gimp.org/mirror/pub/gimp/v2.10/osx/gimp-2.10.14-x86_64.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Git -->
+                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" height="128px"/> 
+                    <h1>Git</h1> 
+                    <p>Narzędzie do publikacji w repozytoriach GitHub</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-32-bit.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://netix.dl.sourceforge.net/project/git-osx-installer/git-2.23.0-intel-universal-mavericks.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- GOG Galaxy -->
+                    <img src="https://img.icons8.com/nolan/2x/gog-galaxy.png" height="128px"/> 
+                    <h1>GOG Galaxy</h1> 
+                    <p>Biblioteka gier od GOG.com</p>
+                    <a class=" btn btn-primary" href="kategoria/Gry">Biblioteki Gier</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_1.2.64.2.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Google Chrome -->
+                    <img src="https://www.google.com/chrome/static/images/chrome-logo.svg" height="128px"/> 
+                    <h1>Google Chrome</h1> 
+                    <p>Prostota obsługi, lepsze zabezpieczenia i większa szybkość. Wbudowane inteligentne rozwiązania Google</p>
+                    <a class=" btn btn-primary" href="kategoria/Przegladarki">Przeglądarki</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://dl.google.com/tag/s/appguid={8A69D345-D564-463C-AFF1-A69D9E530F96}&iid={8E7B7E99-7D24-70C2-A5F4-4A58AE7BE3BF}&lang=pl&browser=3&usagestats=0&appname=Google%20Chrome&needsadmin=prefers&ap=stable-arch_x86-statsdef_1&installdataindex=empty/update2/installers/ChromeSetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm"><i class="fab fa-linux"></i> Linux (tar.gz)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Inkscape -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Inkscape.logo.svg/1024px-Inkscape.logo.svg.png" height="128px"/> 
+                    <h1>Inkscape</h1> 
+                    <p>Oprogramowanie do tworzenia grafiki wektorowej</p>
+                    <a class=" btn btn-primary" href="kategoria/Grafika">Grafika</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://inkscape.org/release/inkscape-0.92.4/windows/64-bit/msi/dl/"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://inkscape.org/release/inkscape-0.92.4/windows/32-bit/msi/dl/"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://inkscape.org/release/inkscape-0.92.4/mac-os-x/dmg/dl/"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Instant Eyedropper -->
+                    <img src="https://image.winudf.com/v2/image/Y29tLmppdmEuZXllZHJvcHBlcl9pY29uXzE1MTYyOTcxODlfMDU5/icon.png?w=170&fakeurl=1" height="128px"/> 
+                    <h1>Instant Eyedropper</h1> 
+                    <p>Narzędzie do wykrywania koloru z ekranu w RGB lub w HTML</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://instant-eyedropper.com/download/instant-eyedropper-1.9.3.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- K-Lite Codec Pack - Standard -->
+                    <img src="https://codecguide.com/mpc_logo.png" height="128px"/> 
+                    <h1>K-Lite Codec Pack - Standard</h1> 
+                    <p>Kodeki umożliwiające odtworzenie wiele formatów wideo</p>
+                    <a class=" btn btn-primary" href="kategoria/Multimedia">Multimedia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://files3.codecguide.com/K-Lite_Codec_Pack_1532_Standard.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://files2.codecguide.com/K-Lite_Codec_Pack_1385_Standard.exe"><i class="fab fa-windows"></i> Windows XP</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Krita -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Calligra_Krita_icon.svg" height="128px"/> 
+                    <h1>Krita</h1> 
+                    <p>Oprogramowanie do tworzenia grafiki wektorowej</p>
+                    <a class=" btn btn-primary" href="kategoria/Grafika">Grafika</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.kde.org/stable/krita/4.2.8/krita-x64-4.2.8-setup.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.kde.org/stable/krita/4.2.8/krita-x86-4.2.8-setup.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.kde.org/stable/krita/4.2.8/krita-4.2.8.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.kde.org/stable/krita/4.2.8/krita-4.2.8-x86_64.appimage"><i class="fab fa-linux"></i> Linux (AppImage)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- LibreOffice -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/LibreOffice_icon_3.3.1_48_px.svg/853px-LibreOffice_icon_3.3.1_48_px.svg.png" height="128px"/> 
+                    <h1>LibreOffice</h1> 
+                    <p>Darmowy pakiet biurowy dla każdego</p>
+                    <a class=" btn btn-primary" href="kategoria/Office">Pakiety biurowe</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.libreoffice.org/donate/dl/win-x86/6.3.4/pl/LibreOffice_6.3.4_Win_x86.msi"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.libreoffice.org/donate/dl/mac-x86_64/6.3.4/pl/LibreOffice_6.3.4_MacOS_x86-64.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.libreoffice.org/donate/dl/deb-x86_64/6.3.4/pl/LibreOffice_6.3.4_Linux_x86-64_deb.tar.gz"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.libreoffice.org/donate/dl/rpm-x86_64/6.3.4/pl/LibreOffice_6.3.4_Linux_x86-64_rpm.tar.gz"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Malwarebytes -->
+                    <img src="https://pl.malwarebytes.com/favicon-96x96.png" height="128px"/> 
+                    <h1>Malwarebytes 4.0</h1> 
+                    <p>Oprogramowanie wyszukujące złośliwe oprogramowania</p>
+                    <a class=" btn btn-primary" href="kategoria/Bezpieczenstwo">Bezpieczeństwo</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://downloads.malwarebytes.com/file/mb-windows"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://downloads.malwarebytes.com/file/mb-mac"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Mozilla Firefox -->
+                    <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-lg.3d9087ac44e8.png" height="128px"/> 
+                    <h1>Mozilla Firefox</h1> 
+                    <p>Zadba o Twoją prywatność w sieci</p>
+                    <a class=" btn btn-primary" href="kategoria/Przegladarki">Przeglądarki</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win&lang=pl"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=pl"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.mozilla.org/?product=firefox-latest-ssl&os=linux&lang=pl"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Node.js -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" height="128px"/> 
+                    <h1>Node.js</h1> 
+                    <p>Środowisko uruchomieniowe do tworzenia aplikacji typu Server-Side napisane w języku JavaScript</p>
+                    <a class=" btn btn-primary" href="kategoria/Programowanie">Programowanie</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://nodejs.org/dist/v12.14.0/node-v12.14.0-x86.msi"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://nodejs.org/dist/v12.14.0/node-v12.14.0.pkg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://nodejs.org/dist/v12.14.0/node-v12.14.0-linux-x64.tar.xz"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Notepad++ -->
+                    <img src="https://notepad-plus-plus.org/images/logo.svg" height="128px"/> 
+                    <h1>Notepad++</h1> 
+                    <p>Rozbudowany notatnik wspierający wiele języków</p>
+                    <a class=" btn btn-primary" href="kategoria/Programowanie">Programowanie</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.2/npp.7.8.2.Installer.x64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.2/npp.7.8.2.Installer.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- OBS Studio -->
+                    <img src="https://obsproject.com/assets/images/new_icon_small.png" height="128px"/> 
+                    <h1>OBS Studio</h1> 
+                    <p>Narzędzie do nagrywania ekranu</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-24.0.3-Full-Installer-x64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-24.0.3-Full-Installer-x86.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://cdn-fastly.obsproject.com/downloads/obs-mac-24.0.6.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Opera -->
+                    <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/favicon/favicon-32x32.d80e4bdc6a9f.png" height="128px"/> 
+                    <h1>Opera</h1> 
+                    <p>Zawiera wbudowany AdBlock oraz darmowy VPN</p>
+                    <a class=" btn btn-primary" href="kategoria/Przegladarki">Przeglądarki</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download1.operacdn.com/pub/opera/desktop/65.0.3467.78/win/Opera_65.0.3467.78_Setup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download3.operacdn.com/pub/opera/desktop/65.0.3467.78/mac/Opera_65.0.3467.78_Setup.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download3.operacdn.com/pub/opera/desktop/65.0.3467.69/linux/opera-stable_65.0.3467.69_amd64.deb"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Opera GX -->
+                    <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/client/welcomeGx/favicon/favicon-32x32.0bf944c0898d.png" height="128px"/> 
+                    <h1>Opera GX</h1> 
+                    <p>Gamingowa przeglądarka</p>
+                    <a class=" btn btn-primary" href="kategoria/Przegladarki">Przeglądarki</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download3.operacdn.com/pub/opera_gx/64.0.3417.150/win/Opera_GX_64.0.3417.150_Setup_x64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download1.operacdn.com/pub/opera_gx/64.0.3417.150/win/Opera_GX_64.0.3417.150_Setup.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"> <!-- Oracle VirtualBox -->
+                    <img src="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/VirtualBox-icon.png" height="128px"/> 
+                    <h1>Oracle VirtualBox</h1> 
+                    <p>Narzędzie do wirtualizacji maszyn</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135663-Win.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135662-OSX.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135662-Linux_amd64.run"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Origin -->
+                    <img src="https://epaypolska.pl/wp-content/uploads/2016/11/origin_logo-250x250.png" height="128px"/> 
+                    <h1>Origin</h1> 
+                    <p>Biblioteka gier od EA</p>
+                    <a class=" btn btn-primary" href="kategoria/Gry">Biblioteki Gier</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.dm.origin.com/download"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.dm.origin.com/mac/download"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Powershell -->
+                    <img src="https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg?sanitize=true" height="128px"/> 
+                    <h1>Powershell v6.2.3</h1> 
+                    <p>Nowy interpreter poleceń</p>
+                    <a class=" btn btn-primary" href="kategoria/Programowanie">Programowanie</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/PowerShell-6.2.3-win-x86.msi"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/powershell-6.2.3-osx-x64.pkg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/powershell_6.2.3-1.ubuntu.18.04_amd64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/powershell-6.2.3-1.rhel.7.x86_64.rpm"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Rockstar Games Launcher -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Rockstar_Games_Logo.svg/1200px-Rockstar_Games_Logo.svg.png" height="128px"/> 
+                    <h1>Rockstar Games Launcher</h1> 
+                    <p>Biblioteka gier Rockstar Games</p>
+                    <a class=" btn btn-primary" href="kategoria/Gry">Biblioteki Gier</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://gamedownloads.rockstargames.com/public/installer/Rockstar-Games-Launcher.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Rufus -->
+                    <img src="https://rufus.ie/pics/rufus-128.png" height="128px"/> 
+                    <h1>Rufus</h1> 
+                    <p>Narzędzie do tworzenia bootowalnego dysku USB</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/pbatard/rufus/releases/download/v3.8/rufus-3.8.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Signal -->
+                    <img src="https://signal.org/assets/header/logo-70556391d9e0f1642cf4ac8bafb3911db909aa3ca820e6d2dc412fa1cb509fa5.png" height="128px"/> 
+                    <h1>Signal</h1> 
+                    <p>Oprogramowanie do komunikacji tekstowej oraz głosowej o wysokich zabezpieczeniach</p>
+                    <a class=" btn btn-primary" href="kategoria/Komunikacja">Komunikacja</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://updates.signal.org/desktop/signal-desktop-win-1.29.3.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://updates.signal.org/desktop/signal-desktop-mac-1.29.3.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Skype -->
+                    <img src="https://freeiconshop.com/wp-content/uploads/edd/skype-flat.png" height="128px"/> 
+                    <h1>Skype</h1> 
+                    <p>Oprogramowanie do komunikacji głosowej od Microsoft</p>
+                    <a class=" btn btn-primary" href="kategoria/Komunikacja">Komunikacja</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://go.skype.com/windows.desktop.download"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.skype.com/mac.download"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.skype.com/skypeforlinux-64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.skype.com/skypeforlinux-64.rpm"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Spotify -->
+                    <img src="https://image.flaticon.com/icons/png/512/2111/2111624.png" height="128px"/> 
+                    <h1>Spotify</h1> 
+                    <p>Odtwarzacz muzyki lokalnej oraz sieciowej</p>
+                    <a class=" btn btn-primary" href="kategoria/Multimedia">Multimedia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.scdn.co/SpotifySetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.scdn.co/SpotifyInstaller.zip"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Steam -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png" height="128px"/> 
+                    <h1>Steam</h1> 
+                    <p>Blibioteka gier od Valve</p>
+                    <a class=" btn btn-primary" href="kategoria/Gry">Biblioteki Gier</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://steamcdn-a.akamaihd.net/client/installer/steam.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://steamcdn-a.akamaihd.net/client/installer/steam.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Sublime Text -->
+                    <img src="https://avatars0.githubusercontent.com/u/684879?s=280&v=4" height="128px"/> 
+                    <h1>Sublime Text</h1> 
+                    <p>Zaawansowany edytor tekstu specjalny dla kodu</p>
+                    <a class=" btn btn-primary" href="kategoria/Programowanie">Programowanie</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.sublimetext.com/Sublime Text Build 3211 x64 Setup.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.sublimetext.com/Sublime Text Build 3211 Setup.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.sublimetext.com/Sublime Text Build 3211.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2"><i class="fab fa-linux"></i> Linux (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.sublimetext.com/sublime_text_3_build_3211_x32.tar.bz2"><i class="fab fa-linux"></i> Linux (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- TeamSpeak 3 -->
+                    <img src="https://media.cdnandroid.com/5c/a2/5c/0e/2f/imagen-teamspeak-3-0thumb.jpg" height="128px"/> 
+                    <h1>TeamSpeak 3</h1> 
+                    <p>Oprogramowanie do komunikacji głosowej między graczami</p>
+                    <a class=" btn btn-primary" href="kategoria/Komunikacja">Komunikacja</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://files.teamspeak-services.com/releases/client/3.3.2/TeamSpeak3-Client-win64-3.3.2.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://files.teamspeak-services.com/releases/client/3.3.2/TeamSpeak3-Client-win32-3.3.2.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://files.teamspeak-services.com/releases/client/3.3.2/TeamSpeak3-Client-macosx-3.3.2.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://files.teamspeak-services.com/releases/client/3.3.2/TeamSpeak3-Client-linux_x86-3.3.2.run"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- TeamViewer 15 -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/TeamViewer_Logo_Icon_Only.svg" height="128px"/> 
+                    <h1>TeamViewer 15</h1> 
+                    <p>Narzędzie do zdalnego sterowania urządzeniem</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.teamviewer.com/download/TeamViewer_Setup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.teamviewer.com/download/TeamViewer.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.teamviewer.com/download/linux/teamviewer_amd64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpmrpm"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Tidal -->
+                    <img src="https://offer.tidal.com/assets/favicons/favicon-196x196.png" height="128px"/> 
+                    <h1>Tidal</h1> 
+                    <p>Najlepsza dostępna jakość dźwięku online <span class="badge badge-secondary">Nowe</span></p>
+                    <a class=" btn btn-primary" href="kategoria/Multimedia">Multimedia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download.tidal.com/desktop/TIDALSetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download.tidal.com/desktop/TIDAL.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Uplay -->
+                    <img src="https://pbs.twimg.com/profile_images/1006453221026615296/hmzPnHjw_400x400.jpg" height="128px"/> 
+                    <h1>Uplay</h1> 
+                    <p>Biblioteka gier od Ubisoft</p>
+                    <a class=" btn btn-primary" href="kategoria/Gry">Biblioteki Gier</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Viber -->
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/359_Viber_logo-512.png" height="128px"/> 
+                    <h1>Viber</h1> 
+                    <p>Oprogramowanie do komunikacji głosowej oraz tekstowej z każdego zakątka świata</p>
+                    <a class=" btn btn-primary" href="kategoria/Komunikacja">Komunikacja</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.cdn.viber.com/desktop/windows/ViberSetup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.cdn.viber.com/desktop/mac/Viber.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.cdn.viber.com/desktop/Linux/viber.rpm"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Visual Studio 2019 -->
+                    <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/02/VSWinIcon_100x.png" height="128px"/> 
+                    <h1>Visual Studio 2019</h1> 
+                    <p>W pełni funkcjonalne, rozszerzalne i bezpłatne środowisko IDE przeznaczone do tworzenia nowoczesnych aplikacji dla systemów Android, iOS i Windows, jak również aplikacji internetowych i usług w chmurze.</p>
+                    <a class=" btn btn-primary" href="kategoria/Programowanie">Programowanie</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.visualstudio.microsoft.com/download/pr/f6473c9f-a5f6-4249-af28-c2fd14b6a0fb/5082309bc336fec6ee9ff09cd0bf9d755b85c49732cf5673c35e7778dc0e221a/vs_Community.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.visualstudio.microsoft.com/download/pr/86688925-4e75-4a31-aaf9-168f83368800/aec6e4319bb72efc89087ec0313b7c06/visualstudioformacinstaller.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Visual Studio Code -->
+                    <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/02/VSWinIcon_100x.png" height="128px"/> 
+                    <h1>Visual Studio Code</h1> 
+                    <p>Darmowe środowisko IDE zbudowane na Open Source, który działa wszędzie</p>
+                    <a class=" btn btn-primary" href="kategoria/Programowanie">Programowanie</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://aka.ms/win32-user-stable"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.microsoft.com/fwlink/?LinkID=620882"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.microsoft.com/fwlink/?LinkID=760868"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://go.microsoft.com/fwlink/?LinkID=760867"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- VLC Media Player -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg" height="128px"/> 
+                    <h1>VLC Media Player</h1> 
+                    <p>Odtwarzacz wideo obsługujący wiele formatów</p>
+                    <a class=" btn btn-primary" href="kategoria/Multimedia">Multimedia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://ftp.icm.edu.pl/pub/video/vlc/vlc/3.0.8/win64/vlc-3.0.8-win64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://ftp.icm.edu.pl/pub/video/vlc/vlc/3.0.8/win32/vlc-3.0.8-win32.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://ftp.icm.edu.pl/pub/video/vlc/vlc/3.0.8/macosx/vlc-3.0.8.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://ftp.icm.edu.pl/pub/video/vlc/vlc/3.0.8/vlc-3.0.8.tar.xz"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- VMWare Workstation Player -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/VMware_Workstation_11.0_icon.png" height="128px"/> 
+                    <h1>VMWare Workstation 15 Player</h1> 
+                    <p>Narzędzie do wirtualizacji maszyn</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.vmware.com/go/getplayer-win"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.vmware.com/go/getplayer-linux"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Winamp -->
+                    <img src="http://icons.iconarchive.com/icons/ncrow/mega-pack-2/256/Winamp-icon.png" height="128px"/> 
+                    <h1>Winamp</h1> 
+                    <p>Słynny odtwarzacz muzyki, który kiedyś znajdował się na każdym komputerze</p>
+                    <a class=" btn btn-primary" href="kategoria/Multimedia">Multimedia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.nullsoft.com/winamp/client/winamp58_3660_beta_full_en-us.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- WinRAR -->
+                    <img src="https://www.winrar.pl/wp-content/uploads/2009/04/winRAR_x.png" height="128px"/> 
+                    <h1>WinRAR</h1> 
+                    <p>Narzędzie do kompresji plików</p>
+                    <a class=" btn btn-primary" href="kategoria/Narzedzia">Narzędzia</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://rarlab.com/rar/winrar-x64-571pl.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://rarlab.com/rar/wrar571pl.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- WhatsApp -->
+                    <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/WhatsApp-512.png" height="128px"/> 
+                    <h1>WhatsApp</h1> 
+                    <p>Oprogramowanie do szybkiej komunikacji głosowej oraz tekstowej</p>
+                    <a class=" btn btn-primary" href="kategoria/Komunikacja">Komunikacja</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://web.whatsapp.com/desktop/windows/release/ia32/WhatsAppSetup.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://web.whatsapp.com/desktop/mac/files/WhatsApp.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- WPS Office -->
+                    <img src="https://d19a1mtic3m6gl.cloudfront.net/website/_nuxt/wins19.9874355.png" height="128px"/> 
+                    <h1>WPS Office</h1> 
+                    <p>Darmowy pakiet biurowy, który jest porównywany do płatnego pakietu Office od Microsoft, zawiera edytor PDF</p>
+                    <a class=" btn btn-primary" href="kategoria/Office">Pakiety biurowe</a>
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/11.2.0.9107/WPSOffice_11.2.0.9107.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="http://wdl1.pcfg.cache.wpscdn.com/wpsdl/macwpsoffice/download/1.8.0.2874/WPSOffice_1.8.0(2874).dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="http://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/8865/wps-office_11.1.0.8865_amd64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="http://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/8865/wps-office-11.1.0.8865-1.x86_64.rpm"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+              $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#programs div").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+              });
+            });
+            </script> 
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container"> 
+                <a style="text-decoration:none; color:white" href="https://github.com/KrzysiekSiemv"><i class="fab fa-github"></i> Krzysztof 'KrzysiekSiemv' Smaga 2020</a>
+            </div>
+        </div>
+    </body>
+</html>

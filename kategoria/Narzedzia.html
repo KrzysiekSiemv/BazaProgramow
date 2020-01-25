@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Krzysztof 'KrzysiekSiemv' Smaga" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Skrypty -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e4c3899c65.js" crossorigin="anonymous"></script>
+        <!-- Takie fajne cosie -->
+        <title>Narzędzia - Baza Programów</title>
+    </head>
+    <body class="bg-dark text-white">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand text-center" href="https://krzysieksiemv.github.io/BazaProgramow"><i class="navbar-brand fas fa-window-restore"></i></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaProgramow">
+                        STRONA GŁÓWNA
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        POBIERZ
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Bezpieczenstwo"><i class="fas fa-shield-alt"></i> Bezpieczeństwo</a>
+                        <a class="dropdown-item" href="Gry"><i class="fas fa-gamepad"></i> Biblioteki Gier</a>
+                        <a class="dropdown-item" href="Grafika"><i class="fas fa-palette"></i> Grafika</a>
+                        <a class="dropdown-item" href="Komunikacja"><i class="fas fa-comments"></i> Komunikacja</a>
+                        <a class="dropdown-item" href="Multimedia"><i class="far fa-play-circle"></i> Multimedia</a>
+                        <a class="dropdown-item" href="Narzedzia"><i class="fas fa-tools"></i> Narzędzia</a>
+                        <a class="dropdown-item" href="Office"><i class="fas fa-briefcase"></i> Pakiety biurowe</a>
+                        <a class="dropdown-item" href="Programowanie"><i class="fas fa-terminal"></i> Programowanie</a>
+                        <a class="dropdown-item" href="Przegladarki"><i class="fab fa-firefox-browser"></i> Przeglądarki</a>
+                        <a class="dropdown-item" href="https://krzysieksiemv.github.io/BazaProgramow/wszystkie-programy"><i class="fas fa-window-restore"></i> Wszystkie programy</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://krzysieksiemv.github.io/BazaOSow">
+                        BAZAOS'ÓW
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container">
+                <p class="display-3">Narzędzia</p>
+                <i class="fas fa-tools" style="font-size: 64px;"></i>
+            </div>
+        </div>
+        <div class="container">
+            <input class="form-control" id="myInput" type="text" placeholder="Szukaj...">
+            <br>
+            <div class="row text-center" id="programs">
+                <div class="col-sm-4"><!-- μTorrent -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/ΜTorrent_2.2_icon.svg/1024px-ΜTorrent_2.2_icon.svg.png" height="128px"/> 
+                    <h1>μTorrent</h1> 
+                    <p>Oprogramowanie do pobierania plików torrent</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download-hr.utorrent.com/track/stable/endpoint/utorrent/os/windows"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download-hr.utorrent.com/track/stable/endpoint/utmac/os/osx"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- 7-zip -->
+                    <img src="https://www.7-zip.org/7ziplogo.png" height="128px"/> 
+                    <h1>7-zip</h1> 
+                    <p>Darmowe oprogramowanie open-source archiwizujące pliki</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.7-zip.org/a/7z1900-x64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.7-zip.org/a/7z1900.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- BlueScreenView -->
+                    <img src="http://cdn.warer.com/media/BlueScreenView-logo.jpg" height="128px"/> 
+                    <h1>BlueScreenView</h1> 
+                    <p>Narzędzie do sprawdzania BSOD'ów</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.nirsoft.net/utils/bluescreenview-x64.zip"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.nirsoft.net/utils/bluescreenview.zip"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Cinebench r20 -->
+                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/cd/e2/c7/cde2c7be-1dea-545b-7980-780f28c00169/c4dapp.png/1200x630bb.png" height="128px"/> 
+                    <h1>Cinebench r20</h1> 
+                    <p>Narzędzie do robienia benchmarków procesora</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://http.maxon.net/pub/cinebench/CinebenchR20.zip"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://http.maxon.net/pub/cinebench/CinebenchR20.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- CPU-Z -->
+                    <img src="https://www.cpuid.com/medias/images/softwares/cpu-z.svg" height="128px"/> 
+                    <h1>CPU-Z</h1> 
+                    <p>Narzędzie pokazujące informacje na temat Twojego komputera</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://download.cpuid.com/cpu-z/cpu-z_1.91-en.zip"><i class="fab fa-windows"></i> Windows (zip)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="http://download.cpuid.com/cpu-z/cpu-z_1.91-en.exe"><i class="fab fa-windows"></i> Windows (exe)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- FileZilla FTP Client -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/FileZilla_logo.svg" height="128px"/> 
+                    <h1>FileZilla FTP Client</h1> 
+                    <p>Narzędzie służące do łączenia się z serwerem FTP</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://dl1.cdn.filezilla-project.org/client/FileZilla_3.46.3_win64-setup.exe?h=resSNbtrsxipVYd0EdLpjg&x=1577880962"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl1.cdn.filezilla-project.org/client/FileZilla_3.46.3_win32-setup.exe?h=bNinoJrBB6d3bQFhfEzfdg&x=1577880962"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://dl1.cdn.filezilla-project.org/client/FileZilla_3.46.3_macosx-x86.app.tar.bz2?h=PfOrFvn2YAKbKV_h2IxodA&x=1577880962"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Geforce Experience -->
+                    <img src="https://vulndetect.org/assets/uploads/files/1529528057938-geforce_experience_icon_256x256.ico" height="128px"/> 
+                    <h1>Geforce Experience</h1> 
+                    <p>Narzędzie do kart graficznych Nvidia optymalizująca działanie karty w grach</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://pl.download.nvidia.com/GFE/GFEClient/3.20.2.34/GeForce_Experience_v3.20.2.34.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Git -->
+                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" height="128px"/> 
+                    <h1>Git</h1> 
+                    <p>Narzędzie do publikacji w repozytoriach GitHub</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-32-bit.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://netix.dl.sourceforge.net/project/git-osx-installer/git-2.23.0-intel-universal-mavericks.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Instant Eyedropper -->
+                    <img src="https://image.winudf.com/v2/image/Y29tLmppdmEuZXllZHJvcHBlcl9pY29uXzE1MTYyOTcxODlfMDU5/icon.png?w=170&fakeurl=1" height="128px"/> 
+                    <h1>Instant Eyedropper</h1> 
+                    <p>Narzędzie do wykrywania koloru z ekranu w RGB lub w HTML</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://instant-eyedropper.com/download/instant-eyedropper-1.9.3.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- OBS Studio -->
+                    <img src="https://obsproject.com/assets/images/new_icon_small.png" height="128px"/> 
+                    <h1>OBS Studio</h1> 
+                    <p>Narzędzie do nagrywania ekranu</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-24.0.3-Full-Installer-x64.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-24.0.3-Full-Installer-x86.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://cdn-fastly.obsproject.com/downloads/obs-mac-24.0.6.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"> <!-- Oracle VirtualBox -->
+                    <img src="http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/VirtualBox-icon.png" height="128px"/> 
+                    <h1>Oracle VirtualBox</h1> 
+                    <p>Narzędzie do wirtualizacji maszyn</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135663-Win.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135662-OSX.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135662-Linux_amd64.run"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- Rufus -->
+                    <img src="https://rufus.ie/pics/rufus-128.png" height="128px"/> 
+                    <h1>Rufus</h1> 
+                    <p>Narzędzie do tworzenia bootowalnego dysku USB</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/pbatard/rufus/releases/download/v3.8/rufus-3.8.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- TeamViewer 15 -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/TeamViewer_Logo_Icon_Only.svg" height="128px"/> 
+                    <h1>TeamViewer 15</h1> 
+                    <p>Narzędzie do zdalnego sterowania urządzeniem</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://download.teamviewer.com/download/TeamViewer_Setup.exe"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.teamviewer.com/download/TeamViewer.dmg"><i class="fab fa-apple"></i> macOS</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.teamviewer.com/download/linux/teamviewer_amd64.deb"><i class="fab fa-linux"></i> Linux (deb)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpmrpm"><i class="fab fa-linux"></i> Linux (rpm)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- VMWare Workstation Player -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/VMware_Workstation_11.0_icon.png" height="128px"/> 
+                    <h1>VMWare Workstation 15 Player</h1> 
+                    <p>Narzędzie do wirtualizacji maszyn</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.vmware.com/go/getplayer-win"><i class="fab fa-windows"></i> Windows</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://www.vmware.com/go/getplayer-linux"><i class="fab fa-linux"></i> Linux</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4"><!-- WinRAR -->
+                    <img src="https://www.winrar.pl/wp-content/uploads/2009/04/winRAR_x.png" height="128px"/> 
+                    <h1>WinRAR</h1> 
+                    <p>Narzędzie do kompresji plików</p>
+                    
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://rarlab.com/rar/winrar-x64-571pl.exe"><i class="fab fa-windows"></i> Windows (64-bit)</a>
+                            </li>
+                            <li class="nav-item">                                
+                                <a class="nav-link" href="https://rarlab.com/rar/wrar571pl.exe"><i class="fab fa-windows"></i> Windows (32-bit)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+              $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#programs div").filter(function() {
+                  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+              });
+            });
+            </script> 
+        <div class="jumbotron jumbotron-fluid text-center" style="background-color: #1e1e1e; color:white">
+            <div class="container"> 
+                <a style="text-decoration:none; color:white" href="https://github.com/KrzysiekSiemv"><i class="fab fa-github"></i> Krzysztof 'KrzysiekSiemv' Smaga 2020</a>
+            </div>
+        </div>
+    </body>
+</html>
